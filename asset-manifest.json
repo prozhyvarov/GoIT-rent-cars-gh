@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css",
-    "main.js": "/GoIT-rent-cars-gh/static/js/main.5cb9ff74.js",
+    "main.js": "/GoIT-rent-cars-gh/static/js/main.4aea1b1d.js",
     "static/media/rent-cars.jpg": "/GoIT-rent-cars-gh/static/media/rent-cars.a2001272fcc87d4e3356.jpg",
     "static/media/favorites_bgrd.png": "/GoIT-rent-cars-gh/static/media/favorites_bgrd.1082cbfacfcee7b7e25c.png",
     "index.html": "/GoIT-rent-cars-gh/index.html",
     "static/media/heart-like.svg": "/GoIT-rent-cars-gh/static/media/heart-like.282d936f414f4c6884ab9306a91dad67.svg",
     "main.7acaea2f.css.map": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css.map",
-    "main.5cb9ff74.js.map": "/GoIT-rent-cars-gh/static/js/main.5cb9ff74.js.map"
+    "main.4aea1b1d.js.map": "/GoIT-rent-cars-gh/static/js/main.4aea1b1d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.5cb9ff74.js"
+    "static/js/main.4aea1b1d.js"
   ]
 }
