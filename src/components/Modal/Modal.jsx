@@ -129,7 +129,7 @@ export const Modal = ({ handleClick, car }) => {
               </Price>
             </MilegEPrice>
           </Descr>
-          <Tel href="tel:+380730000000"> rental car</Tel>
+          <Tel href="tel:+380730000000">Rent this car</Tel>
         </Item>
       </ModalStyled>
     </Overlay>,

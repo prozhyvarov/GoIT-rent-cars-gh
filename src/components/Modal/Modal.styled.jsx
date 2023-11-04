@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const ModalStyled = styled.div`
   position: relative;
   display: flex;
+
   justify-content: center;
   align-items: center;
-  height: ${({ height }) => height};
   border: 1px solid black;
   background-color: white;
   border-radius: 10px;
@@ -73,6 +73,7 @@ export const Description = styled.h5`
 export const Descr = styled.div`
   margin: 0;
   padding: 0 10px;
+  margin-bottom:20px;
 `;
 export const Country = styled.p`
   color: rgba(18, 20, 23, 0.5);
@@ -126,30 +127,27 @@ export const CloseBtn = styled.button`
   }
 `;
 export const Tel = styled.a`
-  display: block;
-  padding: 5px;
-  border: none;
-  border-radius: 12px;
-  background: #3470ff;
-  color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 6px;
+  min-height:20px;
+  width: 140px;
+  border: solid 1px;
+  color: #ffffff;
   text-decoration: none;
-  max-width: 150px;
-  margin: 0;
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  transition: all 0.3s ease-in-out;
-  &.active {
-    background-color: #afffff;
-    color: #000000;
-  }
-  &:hover {
-    scale: 1.1;
-    color: red;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2),
-      0px 1px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #fba003;
+  transition: all 250ms;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #000000;
+    cursor: pointer;
+    transform: scale(1.1);
   }
 `;
 

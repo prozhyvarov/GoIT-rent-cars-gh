@@ -20,7 +20,6 @@ import PropTypes from 'prop-types';
 
 export const CarsListItem = ({ car }) => {
   const [toggleModal, setToggleModal] = useState(false);
-console.log(toggleModal);
   const dispatch = useDispatch();
   const favoriteCars = useSelector(selectFavoritesCars);
   const handleClick = () => {
@@ -50,7 +49,6 @@ console.log(toggleModal);
     type,
     address,
   } = car;
-console.log(favoriteCars);
   const updateaddress = address.split(', ').slice(-2).join(' | ');
   const isInFavorites = favoriteCars.some(i => i.id === id);
   return (

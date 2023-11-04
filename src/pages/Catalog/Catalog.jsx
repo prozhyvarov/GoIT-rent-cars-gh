@@ -22,8 +22,6 @@ const Catalog = () => {
   const [page, setPage] = useState(1);
  const [initialLoad, setInitialLoad] = useState(true);
   const amount = useSelector(selectAmountCars);
-
-  console.log(amount);
  const filteredCars = useSelector(selectFilteredCars);
  const isLoading = useSelector(selectLoading);
 
@@ -34,7 +32,7 @@ const Catalog = () => {
    }
 
    if (!initialLoad) {
-     dispatch(fetchCars({ page, limit: 8 }));
+     dispatch(fetchCars({ page, limit: 12 }));
    } else {
      setInitialLoad(false); 
    }
@@ -50,7 +48,7 @@ const Catalog = () => {
       {isLoading && <Loader />}
       {filteredCars.length > 0 && <CarsList cars={filteredCars} />}
       {filteredCars.length === 0 && !isLoading && <NotFound />}
-      {amount !== filteredCars.length && (
+      {amount <40 && !isLoading && (
         <LoadMoreButton onClick={handleLoadMore} />
       )}
     </Container>
