@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css",
+    "main.js": "/GoIT-rent-cars-gh/static/js/main.07d3183d.js",
+    "index.html": "/GoIT-rent-cars-gh/index.html",
+    "main.7acaea2f.css.map": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/GoIT-rent-cars-gh/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
