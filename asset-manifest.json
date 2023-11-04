@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css",
-    "main.js": "/GoIT-rent-cars-gh/static/js/main.07d3183d.js",
-    "index.html": "/GoIT-rent-cars-gh/index.html",
-    "main.7acaea2f.css.map": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/GoIT-rent-cars-gh/static/js/main.07d3183d.js.map"
+    "main.css": "/GoIT-rent-cars/static/css/main.7acaea2f.css",
+    "main.js": "/GoIT-rent-cars/static/js/main.64f5b454.js",
+    "static/media/rent-cars.jpg": "/GoIT-rent-cars/static/media/rent-cars.a2001272fcc87d4e3356.jpg",
+    "static/media/favorites_bgrd.png": "/GoIT-rent-cars/static/media/favorites_bgrd.1082cbfacfcee7b7e25c.png",
+    "index.html": "/GoIT-rent-cars/index.html",
+    "static/media/heart-like.svg": "/GoIT-rent-cars/static/media/heart-like.282d936f414f4c6884ab9306a91dad67.svg",
+    "main.7acaea2f.css.map": "/GoIT-rent-cars/static/css/main.7acaea2f.css.map",
+    "main.64f5b454.js.map": "/GoIT-rent-cars/static/js/main.64f5b454.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.64f5b454.js"
   ]
 }
