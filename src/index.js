@@ -10,7 +10,7 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-        <BrowserRouter basename="/goit-rent-cars">
+        <BrowserRouter basename="/GoIT-rent-cars-gh">
           <App />
         </BrowserRouter>
     </Provider>
