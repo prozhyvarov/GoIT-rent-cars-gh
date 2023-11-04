@@ -9,6 +9,7 @@ import {
   SubForm,
   Title,
 } from './SearchForm.styled';
+import Notiflix from 'notiflix';
 import { useDispatch } from 'react-redux';
 
 
@@ -29,7 +30,7 @@ export const SearchForm = () => {
       !mileageTo.value &&
       !rentalPrice.value
     ) {
-      alert('Select any filter');
+      Notiflix.Notify.warning('Select any filter');
       return;
     }
 
@@ -37,12 +38,12 @@ export const SearchForm = () => {
     const mileageToInNumber = Number(mileageTo.value);
 
     if (mileageFromInNumber < 0 || mileageToInNumber < 0) {
-      alert('Select valid mileage');
+      Notiflix.Notify.warning('Select valid mileage');
       return;
     }
 
     if (mileageFromInNumber > mileageToInNumber && mileageToInNumber !== 0) {
-      alert('Select mileage to more than mileage from');
+      Notiflix.Notify.warning('Select mileage to more than mileage from');
       return;
     }
 

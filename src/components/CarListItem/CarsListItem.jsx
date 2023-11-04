@@ -11,7 +11,7 @@ import {
   StyledHeart,
   StyledHeartIcon,
 } from './CarsListItem.styled';
-
+import Notiflix from 'notiflix';
 import { Modal } from 'components/Modal/Modal';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectFavoritesCars } from 'redux/selectors';
@@ -28,6 +28,7 @@ export const CarsListItem = ({ car }) => {
 
   const handleToogleFavorites = carId => {
     const persistedCar = favoriteCars.find(({ id }) => carId === id);
+Notiflix.Notify.success('Added to your favorites');
 
     if (!persistedCar) {
       dispatch(addFavoriteCar(car));
