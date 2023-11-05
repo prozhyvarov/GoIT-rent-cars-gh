@@ -1,28 +1,24 @@
+
+import { lazy } from 'react';
 import { Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
-
-
-
+import { Navigate,Route, Routes } from 'react-router-dom';
 import Navigation from 'components/Navigation/Navigation';
-
 import { Container } from '../App/App.styled';
-import HomePage from 'pages/HomePage/Homepage';
-import Catalog from 'pages/Catalog/Catalog';
-import Favorites from 'pages/Favotites/Favorites';
 
-// const SignUp = lazy(() => import('../../pages/SingUp/SignUp'));
-// const Login = lazy(() => import('../../pages/Login/Login'));
-// const Contacts = lazy(() => import('../../pages/Contacts/Contacts'));
+const HomePage = lazy(() => import('../../pages/HomePage/Homepage'));
+const Catalog = lazy(() => import('../../pages/Catalog/Catalog'));
+const Favorites = lazy(() => import('../../pages/Favotites/Favorites'));
 
 export const App = () => {
   return (
     <Container>
       <Suspense>
         <Navigation />
-        <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="/catalog" element={<Catalog />}></Route>
-          <Route path="/favorites" element={<Favorites />}></Route>
+        <Routes>    
+            <Route index element={<HomePage />}/>
+            <Route path="/catalog" element={<Catalog />}/>
+            <Route path="/favorites" element={<Favorites />}/>
+            <Route path="*" element={<Navigate to="/" replace={true} />} />
         </Routes>
       </Suspense>
     </Container>
