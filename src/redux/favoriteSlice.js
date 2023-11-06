@@ -12,7 +12,7 @@ const favoriteSlice = createSlice({
       state.favoriteCar.push(action.payload);
     },
     deleteFavoritCar: (state, action) => {
-      state.favoriteCar = state.favoritCar.filter(
+      state.favoriteCar = state.favoriteCar.filter(
         car => car.id !== action.payload
       );
     },

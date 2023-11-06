@@ -26,14 +26,15 @@ export const CarsListItem = ({ car }) => {
     setToggleModal(prevState => !prevState);
   };
 
-  const handleToogleFavorites = carId => {
+  const handleToggleFavorites = carId => {
     const persistedCar = favoriteCars.find(({ id }) => carId === id);
-Notiflix.Notify.success('Added to your favorites');
 
     if (!persistedCar) {
       dispatch(addFavoriteCar(car));
+      Notiflix.Notify.success('Added to your favorites');
     } else {
       dispatch(deleteFavoritCar(carId));
+      Notiflix.Notify.success('Removed from your favorites');
     }
   };
 
@@ -71,7 +72,7 @@ Notiflix.Notify.success('Added to your favorites');
         <Btn id={id} onClick={handleClick}>
           Learn more
         </Btn>
-        <StyledHeart id={id} onClick={() => handleToogleFavorites(id)}>
+        <StyledHeart id={id} onClick={() => handleToggleFavorites(id)}>
           <StyledHeartIcon $isInFavorites={isInFavorites} />
         </StyledHeart>
       </Item>
