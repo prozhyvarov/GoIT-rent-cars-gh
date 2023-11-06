@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css",
-    "main.js": "/GoIT-rent-cars-gh/static/js/main.f41c109d.js",
+    "main.js": "/GoIT-rent-cars-gh/static/js/main.3db3ceaa.js",
     "static/js/200.2e59e016.chunk.js": "/GoIT-rent-cars-gh/static/js/200.2e59e016.chunk.js",
     "static/js/762.818244f4.chunk.js": "/GoIT-rent-cars-gh/static/js/762.818244f4.chunk.js",
     "static/js/540.19fc2e52.chunk.js": "/GoIT-rent-cars-gh/static/js/540.19fc2e52.chunk.js",
     "static/js/871.de5f7a95.chunk.js": "/GoIT-rent-cars-gh/static/js/871.de5f7a95.chunk.js",
     "static/js/16.c6fd9890.chunk.js": "/GoIT-rent-cars-gh/static/js/16.c6fd9890.chunk.js",
-    "static/js/242.4bc19056.chunk.js": "/GoIT-rent-cars-gh/static/js/242.4bc19056.chunk.js",
+    "static/js/242.07717e30.chunk.js": "/GoIT-rent-cars-gh/static/js/242.07717e30.chunk.js",
     "static/media/rent-cars.jpg": "/GoIT-rent-cars-gh/static/media/rent-cars.a2001272fcc87d4e3356.jpg",
     "static/media/favorites_bgrd.png": "/GoIT-rent-cars-gh/static/media/favorites_bgrd.1082cbfacfcee7b7e25c.png",
     "index.html": "/GoIT-rent-cars-gh/index.html",
     "static/media/heart-like.svg": "/GoIT-rent-cars-gh/static/media/heart-like.282d936f414f4c6884ab9306a91dad67.svg",
     "main.7acaea2f.css.map": "/GoIT-rent-cars-gh/static/css/main.7acaea2f.css.map",
-    "main.f41c109d.js.map": "/GoIT-rent-cars-gh/static/js/main.f41c109d.js.map",
+    "main.3db3ceaa.js.map": "/GoIT-rent-cars-gh/static/js/main.3db3ceaa.js.map",
     "200.2e59e016.chunk.js.map": "/GoIT-rent-cars-gh/static/js/200.2e59e016.chunk.js.map",
     "762.818244f4.chunk.js.map": "/GoIT-rent-cars-gh/static/js/762.818244f4.chunk.js.map",
     "540.19fc2e52.chunk.js.map": "/GoIT-rent-cars-gh/static/js/540.19fc2e52.chunk.js.map",
     "871.de5f7a95.chunk.js.map": "/GoIT-rent-cars-gh/static/js/871.de5f7a95.chunk.js.map",
     "16.c6fd9890.chunk.js.map": "/GoIT-rent-cars-gh/static/js/16.c6fd9890.chunk.js.map",
-    "242.4bc19056.chunk.js.map": "/GoIT-rent-cars-gh/static/js/242.4bc19056.chunk.js.map"
+    "242.07717e30.chunk.js.map": "/GoIT-rent-cars-gh/static/js/242.07717e30.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.f41c109d.js"
+    "static/js/main.3db3ceaa.js"
   ]
 }
