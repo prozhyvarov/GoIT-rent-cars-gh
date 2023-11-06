@@ -1,1 +1,5 @@
 # goit-rent-cars
+
+Please be aware that the application is still in its developmental phase, and currently, only the desktop version is available. Therefore, it is advisable to access the application on devices with a screen width of 1280px or greater. The application was created using Create React App and incorporates various technologies, including React, react-redux toolkit, styled CSS, JavaScript, REST API, react-router-dom, axios, react icons, and other relevant libraries.
+
+The purpose of this application is to facilitate the search for rental cars. To enable precise searching, we have implemented a filtering system that permits users to search for cars based on brand, model, mileage, or hourly rental price. Furthermore, you have the option to save your selected cars for later viewing on the Favorites page. Each car in the catalog features a concise description, and by clicking the "LEARN MORE" button, you can access comprehensive information about the specific car.
